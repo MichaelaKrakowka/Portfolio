@@ -1,0 +1,25 @@
+.about_container {
+  display: flex;
+}
+
+.about_part {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.photo_part {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo_part img {
+  max-width: 300px;
+  max-height: 400px;
+  object-fit: cover;
+}
