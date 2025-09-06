@@ -1,29 +1,30 @@
 .header {
-  padding: 120px;
+  padding: 30px 60px;
 }
 
 .header_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 30px 120px;
 }
 
 .logo {
-  text-decoration: none;
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.5rem;
+  max-width: 150px;
+  max-height: 150px;
 }
+
 .nav_links {
   display: flex;
   align-items: center;
   gap: 40px;
   list-style: none;
+  padding-right: 60px;
 }
 
 .nav_link {
   text-decoration: none;
   color: black;
-  font-family: "Licorice", sans-serif;
+  font-family: "Poiret One", sans-serif;
   font-size: 1.5rem;
 }

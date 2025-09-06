@@ -4,8 +4,8 @@ export const Header = () => {
   return (
     <header className="header ">
       <div className="header_container">
-        <a href="/" className="logo">
-          MK
+        <a href="/">
+          <img className="logo" src="/logo-MK.PNG" alt="logo"></img>
         </a>
         <nav>
           <ul className="nav_links">

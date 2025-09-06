@@ -1,5 +1,5 @@
 .about_container {
-  padding: 60px;
+  padding: 30px 120px;
   display: flex;
 }
 
@@ -13,7 +13,7 @@
   gap: 60px;
 }
 .my_name {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poiret One", sans-serif;
   font-weight: 400;
   font-size: 4rem;
 }
@@ -21,8 +21,9 @@
 .photo_part {
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding: 60px 120px 60px 60px;
 }
 
 .photo_part img {
