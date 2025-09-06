@@ -1,5 +1,5 @@
 .header {
-  padding: 60px 0;
+  padding: 120px;
 }
 
 .header_container {
@@ -11,17 +11,19 @@
 .logo {
   text-decoration: none;
   color: black;
-  padding-left: 220px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
 }
 .nav_links {
   display: flex;
   align-items: center;
   gap: 40px;
   list-style: none;
-  padding-right: 320px;
 }
 
 .nav_link {
   text-decoration: none;
   color: black;
+  font-family: "Licorice", sans-serif;
+  font-size: 1.5rem;
 }

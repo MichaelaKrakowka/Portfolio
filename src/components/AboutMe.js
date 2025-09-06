@@ -2,10 +2,10 @@ import "./AboutMe.css";
 
 export const AboutMe = () => {
   return (
-    <div className="about_container container">
+    <div className="about_container ">
       <div className="about_part">
-        <h1>Michaela Krakówka</h1>
-        <p>
+        <h1 className="my_name">Michaela Krakówka</h1>
+        <p className="paragraphs">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
           blanditiis dolorem consectetur repudiandae, facere delectus adipisci,
           quas nihil labore iusto architecto voluptate sequi nulla earum at

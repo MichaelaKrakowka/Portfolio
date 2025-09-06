@@ -2,10 +2,10 @@ import "./Contact.css";
 
 export const Contact = () => {
   return (
-    <div className="contact_container container">
+    <div className="contact_container ">
       <div className="contact">
-        <h2>Kontakt</h2>
-        <p>
+        <h2 className="headings">Kontakt</h2>
+        <p className="paragraphs">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
           amet excepturi assumenda dolore. Iusto quam sunt autem, eveniet
           laborum perferendis expedita obcaecati ducimus. Dolor reprehenderit
