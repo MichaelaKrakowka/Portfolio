@@ -3,7 +3,7 @@ import "./AboutMe.css";
 export const AboutMe = () => {
   return (
     <>
-      <div className="about_container ">
+      <div className="about_container" id="about">
         <div className="ball"></div>
         <div className="about_part">
           <h1 className="my_name">Michaela Krakówka</h1>
@@ -17,6 +17,7 @@ export const AboutMe = () => {
             eligendi veritatis officia molestiae exercitationem, expedita
             reiciendis, consequuntur iure! Rerum?
           </p>
+          <p>skills</p>
         </div>
 
         <div className="photo_part">

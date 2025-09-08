@@ -1,0 +1,27 @@
+.footer_container {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.footer_paragraph {
+  flex: 1; /* zabere celou šířku */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer_icons {
+  position: absolute;
+  right: 150px; /* odsazení od pravého okraje */
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.icon_github:hover,
+.icon_linkedin:hover {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+}

@@ -75,7 +75,12 @@ h6 {
   isolation: isolate;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #fae0e4;
   color: black;
+  font-family: "Poiret One", sans-serif;
 }
