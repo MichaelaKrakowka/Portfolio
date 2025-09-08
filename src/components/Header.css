@@ -3,10 +3,33 @@
 }
 
 .header_container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 120px;
+}
+.circle {
+  position: absolute;
+  z-index: -1;
+  width: 700px;
+  height: 700px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #fae0e4;
+  left: -150px;
+  top: -300px;
+}
+
+.circle::after {
+  content: "";
+  position: absolute;
+  top: 68px;
+  left: 68px;
+  right: 68px;
+  bottom: 68px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 
 .logo {

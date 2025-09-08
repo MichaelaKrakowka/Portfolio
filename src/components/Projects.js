@@ -48,6 +48,7 @@ export const Projects = () => {
           </p>
         </div>
       </div>
+      <div className="circle3"></div>
     </div>
   );
 };

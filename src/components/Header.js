@@ -4,9 +4,11 @@ export const Header = () => {
   return (
     <header className="header ">
       <div className="header_container">
+        <div className="circle"></div>
         <a href="/">
           <img className="logo" src="/logo-MK.PNG" alt="logo"></img>
         </a>
+        <div className="ball2"></div>
         <nav>
           <ul className="nav_links">
             <li className="nav_element">
