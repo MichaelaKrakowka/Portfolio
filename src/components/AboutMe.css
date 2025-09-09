@@ -1,5 +1,4 @@
 .about_container {
-  /* padding: 30px 120px; */
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -10,14 +9,44 @@
   padding: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  gap: 60px;
 }
 .my_name {
-  /* font-family: "Poiret One", sans-serif; */
+  padding: 10px;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 4.4rem;
+  color: #153976;
+  border-bottom: 1px solid #1b3156;
+}
+
+.about_paragraph {
+  padding-bottom: 15px;
+  font-size: 1.3rem;
+}
+
+@keyframes runningIcon {
+  from {
+    transform: translateX(-40vw);
+  }
+  to {
+    transform: translateX(40vw);
+  }
+}
+
+.skills_part {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  color: #1b3156;
+  overflow: hidden;
+  padding-top: 35px;
+}
+
+.skill_icon {
+  animation: runningIcon 30s linear infinite;
 }
 
 .photo_part {
@@ -25,12 +54,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 60px;
+  padding: 60px 100px;
 }
 
 .photo_part img {
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 350px;
+  max-height: 450px;
   object-fit: cover;
   border: 1px solid black;
   position: relative;

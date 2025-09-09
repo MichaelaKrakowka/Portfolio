@@ -1,4 +1,14 @@
+import React from "react";
 import "./AboutMe.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faSass,
+  faJs,
+  faReact,
+  faGit,
+} from "@fortawesome/free-brands-svg-icons";
 
 export const AboutMe = () => {
   return (
@@ -7,17 +17,44 @@ export const AboutMe = () => {
         <div className="ball"></div>
         <div className="about_part">
           <h1 className="my_name">Michaela Krakówka</h1>
-          <p className="paragraphs">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
-            blanditiis dolorem consectetur repudiandae, facere delectus
-            adipisci, quas nihil labore iusto architecto voluptate sequi nulla
-            earum at dolores laudantium expedita molestiae. Harum esse aut
-            aliquam laudantium tempore tenetur quasi vel nemo? Fuga laudantium
-            similique temporibus deleniti, quam autem provident a quibusdam
-            eligendi veritatis officia molestiae exercitationem, expedita
-            reiciendis, consequuntur iure! Rerum?
-          </p>
-          <p>skills</p>
+          <div>
+            <div className="paragraph_part">
+              <p className="about_paragraph">
+                Ahoj, jsem frontend developerka se slabostí pro React.
+              </p>
+              <p className="about_paragraph">
+                Nejvíc mě baví, když můžu vzít nápad, který mám v hlavě a
+                převést ho do něčeho, co opravdu funguje na obrazovce. Pokud
+                zrovna nepracuju na projektu, je dost pravděpodobné, že
+                přemýšlím nad dalším nápadem, který by mohl dostat šanci.
+                <p>
+                  Kód tvořím ve VS Code a projekt nasazuji na Netlify. V
+                  portfoliu níže najdete projekty, které jsem už stihla
+                  vytvořit.
+                </p>
+              </p>
+            </div>
+            <div className="skills_part">
+              <FontAwesomeIcon icon={faGit} size="lg" className="skill_icon" />
+              <FontAwesomeIcon
+                icon={faReact}
+                size="lg"
+                className="skill_icon"
+              />
+              <FontAwesomeIcon icon={faJs} size="lg" className="skill_icon" />
+              <FontAwesomeIcon icon={faSass} size="lg" className="skill_icon" />
+              <FontAwesomeIcon
+                icon={faCss3Alt}
+                size="lg"
+                className="skill_icon"
+              />
+              <FontAwesomeIcon
+                icon={faHtml5}
+                size="lg"
+                className="skill_icon"
+              />
+            </div>
+          </div>{" "}
         </div>
 
         <div className="photo_part">
@@ -29,3 +66,21 @@ export const AboutMe = () => {
     </>
   );
 };
+
+// const [position, setPosition] = React.useState({
+//   top: 0,
+//   left: 0,
+// });
+
+// const moveBall = (min, max) => {
+//   const newTop = getRandomPosition(min, max);
+//   const newLeft = getRandomPosition(min, max);
+//   setPosition({ top: newTop, left: newLeft });
+// };
+// const getRandomPosition = (min, max) => {
+//   return Math.floor(Math.random() * (max - min + 1)) + min;
+// };
+/* <div
+            className="ball4"
+            style={{ top: position.top, left: position.left }}
+            onMouseOver={() => moveBall(100, 200)}></div> */

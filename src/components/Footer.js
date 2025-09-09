@@ -10,12 +10,20 @@ export const Footer = () => {
       </div>
       <div className="footer_icons">
         <a className="icon_github" href="https://github.com/MichaelaKrakowka">
-          <FontAwesomeIcon icon={faGithub} size="lg" />
+          <FontAwesomeIcon
+            icon={faGithub}
+            size="lg"
+            style={{ color: "#1b3156" }}
+          />
         </a>
         <a
           className="icon_linkedin"
           href="https://www.linkedin.com/in/michaela-krakowka-8abbb2b1">
-          <FontAwesomeIcon icon={faLinkedin} size="lg" />
+          <FontAwesomeIcon
+            icon={faLinkedin}
+            size="lg"
+            style={{ color: "#1b3156" }}
+          />
         </a>
       </div>
     </div>
