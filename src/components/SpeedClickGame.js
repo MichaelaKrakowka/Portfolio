@@ -50,9 +50,9 @@ export const SpeedClickGame = ({ time }) => {
 
       <p>
         {" "}
-        Než se rozhodnete, jestli vám moje portfolio sedí a máte ještě chvilku,
-        připravila jsem malý bonus v podobě klikací hry. Zabere Vám sotva půl
-        minuty. Weby totiž nemusí být jen o prohlížení :).{" "}
+        Mezitím než se rozhodnete, zda Vám moje portfolio sedí, připravila jsem
+        malý bonus v podobě klikací hry. Zabere Vám sotva půl minuty. Weby totiž
+        nemusí být jen o prohlížení :).{" "}
       </p>
       <p> Tak kolik z Vás mě překoná? Já jsem zvládla nejvíce 37 bodů. </p>
 

@@ -27,11 +27,10 @@ export const AboutMe = () => {
                 převést ho do něčeho, co opravdu funguje na obrazovce. Pokud
                 zrovna nepracuju na projektu, je dost pravděpodobné, že
                 přemýšlím nad dalším nápadem.
-                <p>
-                  Kód tvořím ve VS Code a projekt nasazuji na Netlify. V
-                  portfoliu níže najdete projekty, které jsem už stihla
-                  vytvořit.
-                </p>
+              </p>
+              <p>
+                Kód tvořím ve VS Code a projekt nasazuji na Netlify. V portfoliu
+                níže najdete projekty, které jsem už stihla vytvořit.
               </p>
             </div>
             <div className="skills_part">
