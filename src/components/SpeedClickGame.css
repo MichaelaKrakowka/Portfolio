@@ -1,0 +1,35 @@
+.game_content {
+  padding: 60px 210px 60px 180px;
+}
+
+.game {
+  max-width: 360px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+}
+
+.game_heading {
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.click_btn {
+  margin: 12px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 8px 24px rgb(189, 188, 188);
+  transform: translateY(0);
+  font-size: 1.5rem;
+  background: transparent;
+}
+
+.restart_btn {
+  padding: 3px 6px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(116, 113, 113);
+}
