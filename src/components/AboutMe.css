@@ -37,7 +37,7 @@
 .skills_part {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   color: #1b3156;

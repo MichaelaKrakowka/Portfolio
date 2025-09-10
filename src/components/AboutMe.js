@@ -3,7 +3,7 @@ import "./AboutMe.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHtml5,
-  faCss3Alt,
+  faCss3,
   faSass,
   faJs,
   faReact,
@@ -26,7 +26,7 @@ export const AboutMe = () => {
                 Nejvíc mě baví, když můžu vzít nápad, který mám v hlavě a
                 převést ho do něčeho, co opravdu funguje na obrazovce. Pokud
                 zrovna nepracuju na projektu, je dost pravděpodobné, že
-                přemýšlím nad dalším nápadem, který by mohl dostat šanci.
+                přemýšlím nad dalším nápadem.
                 <p>
                   Kód tvořím ve VS Code a projekt nasazuji na Netlify. V
                   portfoliu níže najdete projekty, které jsem už stihla
@@ -43,11 +43,7 @@ export const AboutMe = () => {
               />
               <FontAwesomeIcon icon={faJs} size="lg" className="skill_icon" />
               <FontAwesomeIcon icon={faSass} size="lg" className="skill_icon" />
-              <FontAwesomeIcon
-                icon={faCss3Alt}
-                size="lg"
-                className="skill_icon"
-              />
+              <FontAwesomeIcon icon={faCss3} size="lg" className="skill_icon" />
               <FontAwesomeIcon
                 icon={faHtml5}
                 size="lg"
