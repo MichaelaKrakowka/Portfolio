@@ -1,0 +1,63 @@
+.container_card {
+  max-width: 350px;
+  max-height: 750px;
+  background-color: rgb(208, 155, 155);
+  border-radius: 30px;
+  padding: 20px;
+  font-family: "Quicksand";
+  box-shadow: 0 6px 12px rgb(159, 120, 120);
+}
+
+.img_content {
+  padding: 20px;
+}
+
+.img_card {
+  border-radius: 15px 15px 0 0;
+}
+.heading_card {
+  font-weight: 500;
+}
+
+.visibility_card {
+  font-size: 0.8rem;
+  border-radius: 15px;
+  width: 80px;
+  text-align: center;
+}
+
+.icon_card {
+  padding-left: 8px;
+}
+
+.public_bg {
+  background-color: rgba(83, 139, 83, 0.891);
+}
+
+.private_bg {
+  background-color: rgb(141, 77, 57);
+}
+
+.text_card {
+  font-weight: 300;
+}
+
+.website_card {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: rgb(197, 193, 193);
+  background-color: #153976;
+  width: 80px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.icons_content {
+  display: flex;
+  gap: 15px;
+}
+
+.github_card {
+  color: black;
+  text-decoration: none;
+}

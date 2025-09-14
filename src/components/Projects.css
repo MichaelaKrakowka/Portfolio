@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.projects {
+.project_content {
   padding: 60px 210px 60px 180px;
 }
 
@@ -11,6 +11,12 @@
   color: black;
   text-decoration: none;
   font-weight: 400;
+  padding-bottom: 30px;
+}
+
+.project_cards {
+  display: flex;
+  justify-content: space-around;
 }
 
 .circle3 {
