@@ -24,13 +24,12 @@ export const AboutMe = () => {
               </p>
               <p className="about_paragraph">
                 Nejvíc mě baví, když můžu vzít nápad, který mám v hlavě a
-                převést ho do něčeho, co opravdu funguje na obrazovce. Pokud
-                zrovna nepracuju na projektu, je dost pravděpodobné, že
-                přemýšlím nad dalším nápadem.
+                převést ho na obrazovku. Pokud zrovna nepracuju na projektu, je
+                dost pravděpodobné, že přemýšlím nad dalším nápadem.
               </p>
               <p>
                 Kód tvořím ve VS Code a projekt nasazuji na Netlify. V portfoliu
-                níže najdete projekty, které jsem už stihla vytvořit.
+                níže najdete projekty, které jsem zatím stihla vytvořit.
               </p>
             </div>
             <div className="skills_part">
