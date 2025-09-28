@@ -1,16 +1,15 @@
 .container_card {
-  max-width: 350px;
-  height: auto;
-  background-color: transparent;
-  border-radius: 30px;
+  background-color: #fbe9ec;
   padding: 20px;
   font-family: "Quicksand";
-  box-shadow: 0 5px 10px rgb(85, 82, 82);
-  transition: transform 0.3s ease;
+  border-radius: 8px;
 }
 
-.container_card:hover {
-  transform: scale(1.05);
+.content_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
 .img_content {
@@ -18,7 +17,8 @@
 }
 
 .img_card {
-  border-radius: 15px 15px 0 0;
+  max-width: 220px;
+  max-height: 200px;
 }
 .heading_card {
   font-weight: 500;
