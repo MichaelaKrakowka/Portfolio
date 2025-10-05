@@ -93,21 +93,3 @@ export const AboutMe = () => {
     </>
   );
 };
-
-// const [position, setPosition] = React.useState({
-//   top: 0,
-//   left: 0,
-// });
-
-// const moveBall = (min, max) => {
-//   const newTop = getRandomPosition(min, max);
-//   const newLeft = getRandomPosition(min, max);
-//   setPosition({ top: newTop, left: newLeft });
-// };
-// const getRandomPosition = (min, max) => {
-//   return Math.floor(Math.random() * (max - min + 1)) + min;
-// };
-/* <div
-            className="ball4"
-            style={{ top: position.top, left: position.left }}
-            onMouseOver={() => moveBall(100, 200)}></div> */

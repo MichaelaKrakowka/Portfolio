@@ -1,5 +1,6 @@
 .about_container {
   position: relative;
+  isolation: isolate;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -17,6 +18,7 @@
   padding: 10px;
   font-weight: 400;
   font-size: 4.4rem;
+  letter-spacing: 2px;
   color: #153976;
 }
 
@@ -85,7 +87,7 @@
     transform: translate(0px, 0px);
   }
   30% {
-    transform: translate(-300px, -50px);
+    transform: translate(-150px, -50px);
   }
   60% {
     transform: translate(600px, 200px);

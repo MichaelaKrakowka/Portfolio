@@ -8,10 +8,11 @@
 
 .headings {
   font-size: 2.2rem;
-  color: black;
+  color: #153976;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 300;
   padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .project_cards {

@@ -24,11 +24,6 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="nav_link">
-                  Kontakt
-                </a>
-              </li>
-              <li>
                 <a href="#game" className="nav_link">
                   Minihra
                 </a>
