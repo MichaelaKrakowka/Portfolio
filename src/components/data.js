@@ -12,7 +12,7 @@ export const projectsData = [
     image: "/komercnicentrum.png",
     title: "Komerční centrum - Bohumín",
     description:
-      "Jednostránkový web postavený v Reactu, který prezentuje služby v Komerčním centru v Novém Bohumíně.  ",
+      "Jednostránkový web postavený v Reactu, který prezentuje služby Komerčního centra v Novém Bohumíně.  ",
     website: "https://www.komercnicentrum.com/",
     visibility: "private",
   },

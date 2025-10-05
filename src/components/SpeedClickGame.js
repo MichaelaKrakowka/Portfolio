@@ -1,5 +1,6 @@
 import React from "react";
 import "./SpeedClickGame.css";
+import { RevealSection } from "./RevealSection";
 
 const INTERVAL = 50;
 
@@ -45,38 +46,42 @@ export const SpeedClickGame = ({ time }) => {
   };
 
   return (
-    <div className="game_content">
-      <h2 className="headings">Hra pro odlehčení</h2>
+    <RevealSection>
+      <div className="game_content">
+        <h2 className="headings">Hra pro odlehčení</h2>
 
-      <p>
-        {" "}
-        Mezitím než se rozhodnete, zda Vám moje portfolio sedí, připravila jsem
-        malý bonus v podobě klikací hry. Zabere Vám sotva půl minuty. Weby totiž
-        nemusí být jen o prohlížení :).{" "}
-      </p>
-      <p> Tak kolik z Vás mě překoná? Já jsem zvládla nejvíce 37 bodů. </p>
+        <p className="fade_item delay_1">
+          {" "}
+          Mezitím než se rozhodnete, zda Vám moje portfolio sedí, připravila
+          jsem malý bonus v podobě klikací hry. Zabere Vám sotva půl minuty.
+        </p>
+        <p className="fade_item delay_1">
+          {" "}
+          Tak kolik z Vás mě překoná? Já jsem zvládla nejvíce 37 bodů.{" "}
+        </p>
 
-      <div className="game">
-        <h3 className="game_heading">Zbývající čas: {timeLeft} ms</h3>
-        <h4 className="game_heading">Body: {points}</h4>
+        <div className="game fade_item delay_2">
+          <h3 className="game_heading">Zbývající čas: {timeLeft} ms</h3>
+          <h4 className="game_heading">Body: {points}</h4>
 
-        <button
-          onClick={handleClick}
-          disabled={isGameOver}
-          className="click_btn">
-          Překonáš mě?
-        </button>
+          <button
+            onClick={handleClick}
+            disabled={isGameOver}
+            className="click_btn">
+            Překonáš mě?
+          </button>
 
-        {isGameOver && (
-          <div>
-            <button onClick={handleRestart} className="restart_btn">
-              Restartovat
-            </button>
-          </div>
-        )}
+          {isGameOver && (
+            <div>
+              <button onClick={handleRestart} className="restart_btn">
+                Restartovat
+              </button>
+            </div>
+          )}
 
-        <p>Start: {currentStart} ms zkracuje se o 50 ms po každém kliknutí</p>
+          <p>Start: {currentStart} ms zkracuje se o 50 ms po každém kliknutí</p>
+        </div>
       </div>
-    </div>
+    </RevealSection>
   );
 };

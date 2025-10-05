@@ -5,6 +5,10 @@
   border-radius: 8px;
 }
 
+.container_card:hover {
+  background-color: rgb(253, 243, 243);
+}
+
 .content_card {
   display: flex;
   justify-content: center;
@@ -66,7 +70,7 @@
 }
 
 .github_card {
-  color: black;
+  color: #153976;
   text-decoration: none;
 }
 

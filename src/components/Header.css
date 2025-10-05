@@ -59,3 +59,14 @@
   background-color: white;
   border-radius: 50%;
 }
+
+.ball2 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  z-index: -1;
+  background-color: white;
+  pointer-events: none;
+  border-radius: 50%;
+  animation: floating2 45s linear 1s infinite alternate;
+}

@@ -1,4 +1,5 @@
 .about_container {
+  position: relative;
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -17,7 +18,6 @@
   font-weight: 400;
   font-size: 4.4rem;
   color: #153976;
-  border-bottom: 1px solid #1b3156;
 }
 
 .about_paragraph {
@@ -62,7 +62,6 @@
   max-height: 450px;
   object-fit: cover;
   border: 1px solid black;
-  position: relative;
   box-shadow: 0 6px 12px rgb(159, 120, 120);
 }
 
@@ -110,15 +109,15 @@
     transform: translate(-400px, 200px); /* doleva dolů */
   }
   100% {
-    transform: translate(-300px, -500px); /* zpět doleva nahoru */
+    transform: translate(-300px, -380px); /* zpět doleva nahoru */
   }
 }
 .ball,
-.ball2,
 .ball3 {
   z-index: -1;
   background-color: white;
   border-radius: 50%;
+  pointer-events: none;
 }
 
 .ball {
@@ -126,11 +125,7 @@
   height: 120px;
   animation: floating1 45s linear 1s infinite alternate;
 }
-.ball2 {
-  width: 140px;
-  height: 140px;
-  animation: floating2 45s linear 1s infinite alternate;
-}
+
 .ball3 {
   width: 110px;
   height: 110px;
