@@ -23,11 +23,11 @@ export const Header = () => {
                   Projekty
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#game" className="nav_link">
                   Minihra
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

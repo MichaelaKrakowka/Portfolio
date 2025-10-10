@@ -15,7 +15,6 @@ export const Projects = () => {
             ))}
           </div>
         </div>
-        <div className="circle3"></div>
       </div>
     </RevealSection>
   );
