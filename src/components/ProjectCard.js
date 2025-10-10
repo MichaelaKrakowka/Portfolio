@@ -21,11 +21,14 @@ export const ProjectCard = ({
             rel="noopener noreferrer"
             className="github_card">
             <p
-              className={`visibility_card  ${
+              className={`visibility_card ${
                 visibility === "public" ? "public_bg" : "private_bg"
               }`}>
               {visibility}
-              <FontAwesomeIcon className="icon_card" icon={faGithub} />
+              <FontAwesomeIcon
+                className="icon_card icon_card2"
+                icon={faGithub}
+              />
             </p>
           </a>
           <p className="text_card">{description}</p>

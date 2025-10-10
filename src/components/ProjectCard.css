@@ -37,6 +37,11 @@
   margin: 6px;
   padding: 3px;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.icon_card2:hover {
+  color: #153976;
 }
 
 .icon_card {

@@ -15,7 +15,6 @@
   align-items: flex-start;
 }
 .my_name {
-  padding: 10px;
   font-weight: 400;
   font-size: 4.4rem;
   letter-spacing: 2px;
@@ -155,4 +154,8 @@
   bottom: 100px;
   border: 1px solid white;
   border-radius: 50%;
+}
+
+.icon_card:hover {
+  color: aliceblue;
 }

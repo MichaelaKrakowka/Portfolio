@@ -11,7 +11,7 @@ export const App = () => {
       <Header />
       <AboutMe />
       <Projects />
-      <SpeedClickGame time={2000} />
+      {/* <SpeedClickGame /> */}
       <Footer />
     </>
   );

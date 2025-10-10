@@ -38,3 +38,13 @@
 .restart_btn:hover {
   background-color: rgb(227, 227, 227);
 }
+
+.ttt_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  border: 1px solid white;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}

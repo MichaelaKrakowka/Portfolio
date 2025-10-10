@@ -2,47 +2,22 @@ import React from "react";
 import "./SpeedClickGame.css";
 import { RevealSection } from "./RevealSection";
 
-const INTERVAL = 50;
-
-export const SpeedClickGame = ({ time }) => {
+export const SpeedClickGame = () => {
   const [points, setPoints] = React.useState(0);
-  const [timeLeft, setTimeLeft] = React.useState(time);
-  const [currentStart, setCurrentStart] = React.useState(time);
-  const [isGameOver, setIsGameOver] = React.useState(false);
+  const [time, setTime] = React.useState(100);
 
   React.useEffect(() => {
-    if (isGameOver) return;
-    const intervalId = setInterval(() => {
-      setTimeLeft((previousTime) => {
-        const newTime = previousTime - INTERVAL;
-        if (newTime <= 0) {
-          setIsGameOver(true);
-          return 0; /* už to nepůjde do mínusových hodnot*/
-        }
-        return newTime;
-      });
-    }, INTERVAL);
+    if (time === 0) return;
+    const timer = setInterval(() => {
+      setTime((prev) => prev - 1);
+    }, 100);
 
-    return () => clearInterval(intervalId);
-  }, [isGameOver]);
-
-  const handleClick = () => {
-    if (isGameOver) return;
-
-    setPoints((previousPoints) => previousPoints + 1);
-
-    setCurrentStart((previousStart) => {
-      const shorterStart = Math.max(INTERVAL, previousStart - INTERVAL);
-      setTimeLeft(shorterStart);
-      return shorterStart;
-    });
-  };
+    return () => clearInterval(timer);
+  });
 
   const handleRestart = () => {
     setPoints(0);
-    setCurrentStart(time);
-    setTimeLeft(time);
-    setIsGameOver(false);
+    setTime(100);
   };
 
   return (
@@ -53,7 +28,7 @@ export const SpeedClickGame = ({ time }) => {
         <p className="fade_item delay_1">
           {" "}
           Mezitím než se rozhodnete, zda Vám moje portfolio sedí, připravila
-          jsem malý bonus v podobě klikací hry. Zabere Vám sotva půl minuty.
+          jsem malý bonus v podobě klikací hry.
         </p>
         <p className="fade_item delay_1">
           {" "}
@@ -61,25 +36,16 @@ export const SpeedClickGame = ({ time }) => {
         </p>
 
         <div className="game fade_item delay_2">
-          <h3 className="game_heading">Zbývající čas: {timeLeft} ms</h3>
+          <h3 className="game_heading">Zbývající čas: {time} ms</h3>
           <h4 className="game_heading">Body: {points}</h4>
 
-          <button
-            onClick={handleClick}
-            disabled={isGameOver}
-            className="click_btn">
-            Překonáš mě?
-          </button>
+          <div className="ttt_grid"></div>
 
-          {isGameOver && (
-            <div>
-              <button onClick={handleRestart} className="restart_btn">
-                Restartovat
-              </button>
-            </div>
-          )}
-
-          <p>Start: {currentStart} ms zkracuje se o 50 ms po každém kliknutí</p>
+          <div>
+            <button onClick={handleRestart} className="restart_btn">
+              Restartovat
+            </button>
+          </div>
         </div>
       </div>
     </RevealSection>

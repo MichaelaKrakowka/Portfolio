@@ -84,7 +84,7 @@ export const AboutMe = () => {
           </div>
 
           <div className="photo_part fade_item delay_1">
-            <div className="circle2"></div>
+            {/* <div className="circle2"></div> */}
             <img alt="Me in black and white" src="/photo.jpg"></img>
             <div className="ball3"></div>
           </div>
