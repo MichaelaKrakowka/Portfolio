@@ -20,7 +20,7 @@ export const AboutMe = () => {
           <div className="ball"></div>
           <div className="about_part">
             <h1 className="my_name">Michaela Krakówka</h1>
-            <div>
+            <div className="contact">
               <a
                 href="https://www.github.com/MichaelaKrakowka"
                 target="blank"
@@ -46,7 +46,7 @@ export const AboutMe = () => {
                   převést ho na obrazovku. Pokud zrovna nepracuju na projektu,
                   je dost pravděpodobné, že přemýšlím nad dalším nápadem.
                 </p>
-                <p>
+                <p className="about_paragraph">
                   Kód tvořím ve VS Code a projekt nasazuji na Netlify. V
                   portfoliu níže najdete projekty, které jsem zatím stihla
                   vytvořit.

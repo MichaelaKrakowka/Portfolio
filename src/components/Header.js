@@ -11,6 +11,7 @@ export const Header = () => {
             <img className="logo" src="/logo-MK.PNG" alt="logo"></img>
           </a>
           <div className="ball2"></div>
+
           <nav>
             <ul className="nav_links">
               <li className="nav_element">
@@ -23,13 +24,13 @@ export const Header = () => {
                   Projekty
                 </a>
               </li>
-              {/* <li>
-                <a href="#game" className="nav_link">
-                  Minihra
-                </a>
-              </li> */}
             </ul>
           </nav>
+          <div className="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
       </RevealSection>
     </header>

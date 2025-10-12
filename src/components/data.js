@@ -1,7 +1,7 @@
 export const projectsData = [
   {
     image: "/nevertichu.png",
-    title: "Interaktivní příběh - Nevěř tichu!",
+    title: "Gamebook - Nevěř tichu!",
     description:
       "Interaktivní hororová hra inspirovaná gamebookem, ve které hráč rozhoduje o osudu hlavního hrdiny.",
     website: "https://www.nevertichu.com/",
