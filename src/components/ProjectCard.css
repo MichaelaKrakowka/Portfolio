@@ -4,88 +4,84 @@
   font-family: "Poiret One", sans-serif;
   border-radius: 8px;
 }
-
 .container_card:hover {
   background-color: rgb(253, 243, 243);
 }
 
-.content_card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-}
-
 .img_content {
-  padding: 20px;
+  padding: 20px 0;
 }
-
 .img_card {
-  max-width: 220px;
-  max-height: 200px;
+  border-radius: 8px;
 }
 .heading_card {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  padding: 6px 12px;
+  padding: 6px 0;
+  color: #153976;
+  text-shadow: 0 3px 6px #999ca0;
 }
-
 .visibility_card {
   display: inline-block;
   font-size: 0.8rem;
   border-radius: 15px;
   width: auto;
   margin: 6px;
-  padding: 3px 6px;
+  padding: 4px 10px;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-}
-
-.icon_card2:hover {
   color: #153976;
 }
-
-.icon_card {
-  padding-left: 8px;
-}
-
 .public_bg {
   background-color: rgba(83, 139, 83, 0.891);
+}
+.public_bg:hover {
+  color: aliceblue;
 }
 
 .private_bg {
   background-color: rgb(141, 77, 57);
 }
 
+.icon_card {
+  padding-left: 8px;
+}
 .text_card {
-  font-weight: 300;
+  padding: 12px 0;
 }
 
-.website_card {
-  text-decoration: none;
-  font-size: 0.8rem;
-  color: rgb(197, 193, 193);
-  background-color: #153976;
-  width: 80px;
-  text-align: center;
-  border-radius: 15px;
-}
-
-.icons_content {
-  display: flex;
-  gap: 15px;
-}
-
-.github_card {
-  color: #153976;
-  text-decoration: none;
-}
-
-.text_card {
-  padding: 6px 12px 20px 12px;
-}
-
-@media (max-width: 1280px) {
+@media (min-width: 1280px) {
   .content_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
   }
+
+  .img_content {
+    padding: 20px;
+  }
+
+  .img_card {
+    max-width: 220px;
+    max-height: 200px;
+  }
+  .heading_card {
+    padding: 6px 12px;
+  }
+
+  /* .website_card {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: rgb(197, 193, 193);
+    background-color: #153976;
+    width: 80px;
+    text-align: center;
+    border-radius: 15px;
+  } */
+
+  /* .icons_content {
+    display: flex;
+    gap: 15px;
+  } */
 }

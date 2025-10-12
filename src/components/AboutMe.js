@@ -37,7 +37,7 @@ export const AboutMe = () => {
               </a>
             </div>
             <div>
-              <div className="paragraph_part fade_item delay_1">
+              <div className="paragraph_part fade_item delay_2">
                 <p className="about_paragraph">
                   Ahoj, jsem frontend developerka se slabostí pro React.
                 </p>
@@ -83,10 +83,13 @@ export const AboutMe = () => {
             </div>{" "}
           </div>
 
-          <div className="photo_part fade_item delay_1">
+          <div className="photo_part ">
             {/* <div className="circle2"></div> */}
             <div className="circle3"></div>
-            <img alt="Me in black and white" src="/photo.jpg"></img>
+            <img
+              className="fade_item delay_3"
+              alt="Me in black and white"
+              src="/photo.jpg"></img>
             <div className="ball3"></div>
           </div>
         </div>

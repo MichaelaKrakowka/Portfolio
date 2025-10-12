@@ -1,37 +1,36 @@
-@media (min-width: 1280px) {
-  .project_container {
-    position: relative;
-  }
+.project_container {
+  position: relative;
+}
+.project_content {
+  padding: 20px;
+}
+.headings {
+  font-size: 1.9rem;
+  color: #153976;
+  text-decoration: none;
+  font-weight: 300;
+  padding-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 0 3px 6px rgb(159, 120, 120);
+}
+.project_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 
+@media (min-width: 1280px) {
   .project_content {
-    padding: 60px 180px;
+    padding: 60px 150px;
   }
 
   .headings {
     font-size: 2.2rem;
-    color: #153976;
-    text-decoration: none;
-    font-weight: 300;
-    padding-bottom: 30px;
-    font-family: "Montserrat", sans-serif;
   }
 
   .project_cards {
+    flex-direction: row;
     max-width: 1500px;
-    display: flex;
     gap: 50px;
-  }
-
-  @media (max-width: 1280px) {
-    .headings {
-      font-size: 1.8rem;
-    }
-    .project_content {
-      padding: 30px 80px;
-    }
-    .project_cards {
-      flex-direction: column;
-      justify-content: center;
-    }
   }
 }

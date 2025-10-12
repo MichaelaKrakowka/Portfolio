@@ -12,7 +12,7 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className="container_card">
-      <div className="content_card">
+      <div className="content_card fade_item delay_2">
         <div>
           <h4 className="heading_card">{title}</h4>
           <a
