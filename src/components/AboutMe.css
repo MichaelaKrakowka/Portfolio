@@ -17,12 +17,18 @@
   text-shadow: 0 6px 12px rgb(159, 120, 120);
 }
 .contact {
+  display: flex;
   padding: 15px 0;
 }
 .about_paragraph {
   padding-bottom: 15px;
 }
 .github_card {
+  color: #153976;
+}
+.location {
+  cursor: default;
+  padding-right: 55px;
   color: #153976;
 }
 @keyframes runningIcon {
@@ -127,10 +133,10 @@
     align-items: flex-start;
   }
   .my_name {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
   .about_paragraph {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
   @keyframes runningIcon {
     from {
@@ -163,6 +169,10 @@
     padding: 60px 100px;
   }
 
+  .photo_part img {
+    max-width: 350px;
+    max-height: 450px;
+  }
   @keyframes floating1 {
     0% {
       transform: translate(0px, 0px);
@@ -253,9 +263,9 @@
     border-radius: 50%;
   }
 
-  .icon_card:hover {
+  /* .icon_card:hover {
     color: aliceblue;
-  }
+  } */
 }
 /* 
   @media (max-width: 1280px) {

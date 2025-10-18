@@ -46,6 +46,7 @@
 
 .icon_card {
   padding-left: 8px;
+  cursor: pointer;
 }
 .icon_card2:hover {
   color: #153976;

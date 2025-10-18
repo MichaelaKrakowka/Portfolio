@@ -11,6 +11,7 @@ import {
   faReact,
   faGit,
 } from "@fortawesome/free-brands-svg-icons";
+import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const AboutMe = () => {
   return (
@@ -21,6 +22,9 @@ export const AboutMe = () => {
           <div className="about_part">
             <h1 className="my_name">Michaela Krakówka</h1>
             <div className="contact">
+              <p className="location">
+                <FontAwesomeIcon icon={faLocationDot} /> Ostrava
+              </p>
               <a
                 href="https://www.github.com/MichaelaKrakowka"
                 target="blank"
@@ -35,6 +39,9 @@ export const AboutMe = () => {
                 className="github_card fade_item delay_1">
                 <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
               </a>
+              <p className="github_card">
+                <FontAwesomeIcon className="icon_card" icon={faEnvelope} />
+              </p>
             </div>
             <div>
               <div className="paragraph_part fade_item delay_2">
