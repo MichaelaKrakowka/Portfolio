@@ -1,8 +1,9 @@
 .footer_container {
-  height: 150px;
+  height: 80px;
   display: flex;
   align-items: center;
   padding: 20px;
+  background-color: #f0d5da;
 }
 
 .footer_paragraph {
@@ -13,4 +14,10 @@
   align-items: center;
   padding: 10px;
   font-size: 0.7rem;
+}
+
+@media (min-width: 1280px) {
+  .footer_container {
+    height: 120px;
+  }
 }

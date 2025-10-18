@@ -39,17 +39,21 @@ export const AboutMe = () => {
             <div>
               <div className="paragraph_part fade_item delay_2">
                 <p className="about_paragraph">
-                  Ahoj, jsem frontend developerka se slabostí pro React.
+                  Jsem JavaScript frontend vývojářka se slabostí pro React.
                 </p>
                 <p className="about_paragraph">
-                  Nejvíc mě baví, když můžu vzít nápad, který mám v hlavě a
-                  převést ho na obrazovku. Pokud zrovna nepracuju na projektu,
-                  je dost pravděpodobné, že přemýšlím nad dalším nápadem.
+                  Baví mě vytvářet si své vlastní projekty a převádět je na
+                  obrazovku. Pokud zrovna na nějakém nepracuji, je dost
+                  pravděpodobné, že přemýšlím již nad dalším.{" "}
                 </p>
                 <p className="about_paragraph">
-                  Kód tvořím ve VS Code a projekt nasazuji na Netlify. V
-                  portfoliu níže najdete projekty, které jsem zatím stihla
-                  vytvořit.
+                  {" "}
+                  Mimo práci na svých projektech, bych se ráda stala součástí
+                  týmu, kde bych mohla dále růst a stát se tak plnohodnotným
+                  členem. Jsem otevřená práci na zkrácený i plný úvazek, ideálně
+                  alespoň s částečným docházením do firmy, abych toho co nejvíce
+                  pochytila. Navíc si myslím, že osobní kontakt a kávu s týmem
+                  žádný monitor nenahradí.{" "}
                 </p>
               </div>
               <div className="skills_part">
@@ -83,11 +87,11 @@ export const AboutMe = () => {
             </div>{" "}
           </div>
 
-          <div className="photo_part ">
+          <div className="photo_part delay_3">
             {/* <div className="circle2"></div> */}
             <div className="circle3"></div>
             <img
-              className="fade_item delay_3"
+              className="fade_item "
               alt="Me in black and white"
               src="/photo.jpg"></img>
             <div className="ball3"></div>

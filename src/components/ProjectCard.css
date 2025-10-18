@@ -4,8 +4,9 @@
   font-family: "Poiret One", sans-serif;
   border-radius: 8px;
 }
-.container_card:hover {
-  background-color: rgb(253, 243, 243);
+
+.container_card:last-of-type {
+  margin-bottom: 40px;
 }
 
 .img_content {
@@ -46,16 +47,26 @@
 .icon_card {
   padding-left: 8px;
 }
+.icon_card2:hover {
+  color: #153976;
+}
 .text_card {
   padding: 12px 0;
 }
 
 @media (min-width: 1280px) {
+  .container_card:hover {
+    background-color: rgb(253, 243, 243);
+  }
+  .container_card:last-of-type {
+    margin-bottom: 0;
+  }
   .content_card {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 50px;
+    font-size: 1.3rem;
   }
 
   .img_content {

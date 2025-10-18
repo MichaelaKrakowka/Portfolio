@@ -8,6 +8,7 @@ export const Footer = () => {
     <div className="footer_container">
       <div className="footer_paragraph">
         <p>© 2025 | Design & Develop by Michaela Krakówka</p>
+
         <p>michaela.krakowka@gmail.com</p>
         <div>
           <a
