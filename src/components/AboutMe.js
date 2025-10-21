@@ -24,7 +24,7 @@ export const AboutMe = () => {
           <div className="about_part">
             <h1 className="my_name">Michaela Krakówka</h1>
             <div className="contact">
-              <p className="location">
+              <p className="location fade_item delay_1">
                 <FontAwesomeIcon icon={faLocationDot} /> Ostrava
               </p>
               <a
@@ -41,7 +41,7 @@ export const AboutMe = () => {
                 className="github_card fade_item delay_1">
                 <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
               </a>
-              <div className="github_card">
+              <div className="github_card fade_item delay_1 email_icon">
                 {visibleEmail ? (
                   <p
                     onClick={() => setVisibleEmail(false)}
@@ -62,20 +62,19 @@ export const AboutMe = () => {
                 <p className="about_paragraph">
                   Jsem JavaScript frontend vývojářka se slabostí pro React.
                 </p>
-                <p className="about_paragraph">
+                <p className="about_paragraph fade_item delay_3">
                   Baví mě vytvářet si své vlastní projekty a převádět je na
                   obrazovku. Pokud zrovna na nějakém nepracuji, je dost
                   pravděpodobné, že přemýšlím již nad dalším.{" "}
                 </p>
-                <p className="about_paragraph">
+                <p className="about_paragraph fade_item delay_4">
                   {" "}
                   Mimo práci na vlastních projektech, bych se ráda stala
                   součástí týmu, kde bych mohla dále profesně růst a stát se tak
                   plnohodnotným členem. Jsem otevřená spolupráci na plný i
                   zkrácený úvazek, ideálně alespoň s částečným docházením do
                   firmy, abych toho co nejvíce pochytila od svých kolegů a mohla
-                  lépe poznat firemní kulturu. Myslím si, že osobní kontakt a
-                  kávu s týmem žádný monitor nenahradí.{" "}
+                  lépe poznat firemní kulturu.
                 </p>
               </div>
               <div className="skills_part">
@@ -109,11 +108,11 @@ export const AboutMe = () => {
             </div>{" "}
           </div>
 
-          <div className="photo_part delay_3">
+          <div className="photo_part fade_item ">
             {/* <div className="circle2"></div> */}
             <div className="circle3"></div>
             <img
-              className="fade_item "
+              className="fade_item delay_1"
               alt="Me in black and white"
               src="/photo.jpg"></img>
             <div className="ball3"></div>

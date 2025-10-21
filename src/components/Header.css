@@ -13,6 +13,24 @@
 .nav_links {
   display: none;
 }
+.desktop_nav {
+  display: flex;
+}
+
+.mobile_nav {
+  display: none;
+}
+
+/* Na mobilech zobrazíš hamburger, schováš běžnou navigaci */
+@media (max-width: 768px) {
+  .desktop_nav {
+    display: none;
+  }
+
+  .mobile_nav {
+    display: block;
+  }
+}
 
 @keyframes floating2 {
   0% {

@@ -13,7 +13,7 @@ export const RevealSection = ({ children }) => {
           spyGuy.disconnect();
         }
       },
-      { rootMargin: "-100px" }
+      { threshold: 0.2, rootMargin: "0px 0px -10% 0px" }
     );
     if (ref.current) spyGuy.observe(ref.current);
     return () => spyGuy.disconnect();

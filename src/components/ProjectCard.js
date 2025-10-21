@@ -25,17 +25,14 @@ export const ProjectCard = ({
                 visibility === "public" ? "public_bg" : "private_bg"
               }`}>
               {visibility}
-              <FontAwesomeIcon
-                className="icon_card icon_card2"
-                icon={faGithub}
-              />
+              <FontAwesomeIcon className="icon_card " icon={faGithub} />
             </p>
           </a>
           <p className="text_card">{description}</p>
         </div>
         <div className="img_content">
           <a href={website} target="_blank" rel="noopener noreferrer">
-            <img className="img_card" src={image} alt="Ukázka projektu" />
+            <img className="img_card" src={image} alt="Přejít na projekt" />
           </a>
         </div>
       </div>

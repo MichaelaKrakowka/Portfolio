@@ -8,10 +8,10 @@ export const Projects = () => {
     <RevealSection>
       <div className="project_container" id="projects">
         <div className="project_content">
-          <h2 className="headings ">Projekty</h2>
-          <div className="project_cards fade_item delay_1">
-            {projectsData.map((title, index) => (
-              <ProjectCard key={index} {...title} />
+          <h2 className="headings fade_item delay_0">Projekty</h2>
+          <div className="project_cards ">
+            {projectsData.map((project, index) => (
+              <ProjectCard key={index} {...project} />
             ))}
           </div>
         </div>

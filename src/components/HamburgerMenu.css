@@ -1,0 +1,17 @@
+.mobile_menu_btn {
+  border: none;
+  background: none;
+  color: rgb(105, 102, 103);
+}
+
+.menu_icon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.mobile_nav {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  z-index: 10;
+}
