@@ -14,6 +14,8 @@ import {
 import { faLocationDot, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const AboutMe = () => {
+  const [visibleEmail, setVisibleEmail] = React.useState(false);
+
   return (
     <>
       <RevealSection>
@@ -39,9 +41,21 @@ export const AboutMe = () => {
                 className="github_card fade_item delay_1">
                 <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
               </a>
-              <p className="github_card">
-                <FontAwesomeIcon className="icon_card" icon={faEnvelope} />
-              </p>
+              <div className="github_card">
+                {visibleEmail ? (
+                  <p
+                    onClick={() => setVisibleEmail(false)}
+                    style={{ cursor: "pointer", paddingLeft: "8px" }}>
+                    michaela.krakowka@gmail.com
+                  </p>
+                ) : (
+                  <FontAwesomeIcon
+                    className="icon_card"
+                    icon={faEnvelope}
+                    onClick={() => setVisibleEmail(true)}
+                  />
+                )}
+              </div>
             </div>
             <div>
               <div className="paragraph_part fade_item delay_2">
@@ -55,12 +69,13 @@ export const AboutMe = () => {
                 </p>
                 <p className="about_paragraph">
                   {" "}
-                  Mimo práci na svých projektech, bych se ráda stala součástí
-                  týmu, kde bych mohla dále růst a stát se tak plnohodnotným
-                  členem. Jsem otevřená práci na zkrácený i plný úvazek, ideálně
-                  alespoň s částečným docházením do firmy, abych toho co nejvíce
-                  pochytila. Navíc si myslím, že osobní kontakt a kávu s týmem
-                  žádný monitor nenahradí.{" "}
+                  Mimo práci na vlastních projektech, bych se ráda stala
+                  součástí týmu, kde bych mohla dále profesně růst a stát se tak
+                  plnohodnotným členem. Jsem otevřená spolupráci na plný i
+                  zkrácený úvazek, ideálně alespoň s částečným docházením do
+                  firmy, abych toho co nejvíce pochytila od svých kolegů a mohla
+                  lépe poznat firemní kulturu. Myslím si, že osobní kontakt a
+                  kávu s týmem žádný monitor nenahradí.{" "}
                 </p>
               </div>
               <div className="skills_part">
