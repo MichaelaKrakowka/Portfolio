@@ -119,8 +119,8 @@ export const AboutMe = () => {
               className="fade_item delay_1"
               alt="Me in black and white"
               src="/photo.jpg"></img>
-            <div className="ball3"></div>
           </div>
+          <div className="ball3"></div>
         </div>
       </RevealSection>
     </>

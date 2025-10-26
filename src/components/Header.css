@@ -45,7 +45,7 @@
   animation: floating2 35s linear 1s infinite alternate;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .desktop_nav {
     display: flex;
     margin-left: auto;
