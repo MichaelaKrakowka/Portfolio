@@ -1,5 +1,5 @@
 .header {
-  padding: 15px;
+  padding: 20px;
 }
 .header_container {
   position: relative;
@@ -46,6 +46,10 @@
 }
 
 @media (min-width: 768px) {
+  .header_container {
+    padding: 15px;
+  }
+
   .desktop_nav {
     display: flex;
     margin-left: auto;

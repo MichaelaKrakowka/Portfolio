@@ -51,7 +51,7 @@
   padding-left: 8px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
   .container_card:hover {
     background-color: rgb(253, 243, 243);
   }
