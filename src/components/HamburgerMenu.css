@@ -54,7 +54,7 @@
 .close_btn {
   border: none;
   background: none;
-  color: aliceblue;
+  color: var(--icons-hover-color);
   position: absolute;
   right: 3rem;
   top: 3rem;
@@ -79,7 +79,7 @@
 
 .mobile_nav_link {
   text-decoration: none;
-  color: aliceblue;
+  color: var(--icons-hover-color);
   font-size: 1.2rem;
 }
 .mobile_nav_link:hover {

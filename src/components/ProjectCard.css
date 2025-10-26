@@ -1,7 +1,6 @@
 .container_card {
   background-color: #fbe9ec;
   padding: 20px;
-  font-family: "Poiret One", sans-serif;
   border-radius: 8px;
 }
 
@@ -73,8 +72,5 @@
   .img_card {
     max-width: 220px;
     max-height: 200px;
-  }
-  .heading_card {
-    padding: 6px 12px;
   }
 }

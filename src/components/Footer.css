@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  background-color: #f0d5da;
+  background-color: var(--footer-bg);
 }
 
 .footer_paragraph {

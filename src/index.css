@@ -77,11 +77,21 @@ h6 {
 
 :root {
   scroll-behavior: smooth;
+  --bg-color: #fae0e4;
+  --footer-bg: #f0d5da;
+  --balls-color: #ffffff;
+  --circles-color: #ffffff;
+  --skills-color: #1b3156;
+  --icons-hover-color: #f0f8ff;
+  --primary-color: #153976;
+  --secondary-color: #000000;
+  --primary-font: "Poiret One", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: #fae0e4;
-  color: black;
-  font-family: "Poiret One", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--secondary-color);
+  font-family: var(--primary-font);
   font-size: 1.1rem;
 }

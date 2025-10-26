@@ -39,7 +39,7 @@
   width: 100px;
   height: 100px;
   z-index: -1;
-  background-color: white;
+  background-color: var(--balls-color);
   pointer-events: none;
   border-radius: 50%;
   animation: floating2 35s linear 1s infinite alternate;
@@ -100,7 +100,7 @@
     width: 140px;
     height: 140px;
     z-index: -1;
-    background-color: white;
+    background-color: var(--balls-color);
     pointer-events: none;
     border-radius: 50%;
     animation: floating2 45s linear 1s infinite alternate;
@@ -110,9 +110,9 @@
     z-index: -1;
     width: 700px;
     height: 700px;
-    border: 1px solid white;
+    border: 1px solid var(--circles-color);
     border-radius: 50%;
-    background-color: #fae0e4;
+    background-color: var(--bg-color);
     left: -150px;
     top: -300px;
   }
@@ -124,7 +124,7 @@
     left: 68px;
     right: 68px;
     bottom: 68px;
-    border: 1px solid white;
+    border: 1px solid var(--circles-color);
     border-radius: 50%;
   }
 }

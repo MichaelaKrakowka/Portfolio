@@ -43,7 +43,10 @@ export const AboutMe = () => {
                   {visibleEmail ? (
                     <p
                       onClick={() => setVisibleEmail(false)}
-                      style={{ cursor: "pointer", paddingLeft: "8px" }}>
+                      style={{
+                        cursor: "pointer",
+                        paddingLeft: "8px",
+                      }}>
                       michaela.krakowka@gmail.com
                     </p>
                   ) : (
