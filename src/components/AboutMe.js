@@ -30,14 +30,14 @@ export const AboutMe = () => {
                   target="blank"
                   rel="noopener noreferrer"
                   className="github_card fade_item delay_1">
-                  <FontAwesomeIcon className="icon_card" icon={faGithub} />
+                  <FontAwesomeIcon icon={faGithub} />
                 </a>
                 <a
                   href="https://www.linkedin.com/in/michaela-krakowka-8abbb2b1/"
                   target="blank"
                   rel="noopener noreferrer"
                   className="github_card fade_item delay_1">
-                  <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
+                  <FontAwesomeIcon icon={faLinkedin} />
                 </a>
                 <div className="github_card fade_item delay_1 email_icon">
                   {visibleEmail ? (
@@ -48,7 +48,6 @@ export const AboutMe = () => {
                     </p>
                   ) : (
                     <FontAwesomeIcon
-                      className="icon_card"
                       icon={faEnvelope}
                       onClick={() => setVisibleEmail(true)}
                     />
@@ -57,7 +56,8 @@ export const AboutMe = () => {
               </div>
               <div>
                 <p className="location fade_item delay_1">
-                  <FontAwesomeIcon icon={faLocationDot} /> Ostrava
+                  <FontAwesomeIcon className="icon_card" icon={faLocationDot} />{" "}
+                  Ostrava
                 </p>
               </div>
             </div>

@@ -82,3 +82,7 @@
   color: aliceblue;
   font-size: 1.2rem;
 }
+.mobile_nav_link:hover {
+  padding-bottom: 4px;
+  border-bottom: 1px solid rgb(142, 143, 144);
+}

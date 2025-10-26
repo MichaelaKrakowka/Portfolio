@@ -25,7 +25,7 @@ export const ProjectCard = ({
                 visibility === "public" ? "public_bg" : "private_bg"
               }`}>
               {visibility}
-              <FontAwesomeIcon className="icon_card " icon={faGithub} />
+              <FontAwesomeIcon className="icon_card2 " icon={faGithub} />
             </p>
           </a>
           <p className="text_card">{description}</p>

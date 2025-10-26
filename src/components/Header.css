@@ -10,26 +10,13 @@
   max-width: 90px;
   max-height: 90px;
 }
-.nav_links {
-  display: none;
-}
+
 .desktop_nav {
-  display: flex;
+  display: none;
 }
 
 .mobile_nav {
-  display: none;
-}
-
-/* Na mobilech zobrazíš hamburger, schováš běžnou navigaci */
-@media (max-width: 768px) {
-  .desktop_nav {
-    display: none;
-  }
-
-  .mobile_nav {
-    display: flex;
-  }
+  display: flex;
 }
 
 @keyframes floating2 {
@@ -58,41 +45,37 @@
   animation: floating2 35s linear 1s infinite alternate;
 }
 
-@media (min-width: 1280px) {
-  .header {
-    padding: 30px 60px;
+@media (min-width: 992px) {
+  .desktop_nav {
+    display: flex;
+    margin-left: auto;
+    padding-right: 35px;
   }
-
-  .header_container {
-    justify-content: space-between;
-    padding: 30px 120px;
-  }
-
-  .logo {
-    max-width: 150px;
-    max-height: 150px;
+  .mobile_nav {
+    display: none;
   }
   .nav_links {
     display: flex;
-    align-items: center;
     gap: 40px;
     list-style: none;
-    padding-right: 60px;
+    align-items: center;
   }
-
   .nav_link {
+    display: flex;
     text-decoration: none;
     color: #153976;
     text-shadow: 0 2px 4px rgb(159, 120, 120);
-    font-family: "Poiret One", sans-serif;
     font-size: 1.5rem;
     padding: 7px 13px;
   }
-
   .nav_link:hover {
     text-shadow: 0 2px 4px rgb(68, 64, 64);
   }
 
+  .logo {
+    max-width: 120px;
+    max-height: 120px;
+  }
   @keyframes floating2 {
     0% {
       transform: translate(0px, 0px);
@@ -139,5 +122,24 @@
     bottom: 68px;
     border: 1px solid white;
     border-radius: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header {
+    padding: 30px 60px;
+  }
+
+  .header_container {
+    justify-content: space-between;
+    padding: 30px 120px;
+  }
+
+  .logo {
+    max-width: 150px;
+    max-height: 150px;
+  }
+  .nav_links {
+    padding-right: 60px;
   }
 }

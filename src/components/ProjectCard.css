@@ -47,6 +47,9 @@
 .text_card {
   padding: 12px 0;
 }
+.icon_card2 {
+  padding-left: 8px;
+}
 
 @media (min-width: 1280px) {
   .container_card:hover {

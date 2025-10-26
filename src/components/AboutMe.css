@@ -26,7 +26,7 @@
 
 .contact_icons {
   display: flex;
-  gap: 8px;
+  gap: 10px;
 }
 .about_paragraph {
   padding-bottom: 15px;

@@ -16,6 +16,10 @@
   font-size: 0.7rem;
 }
 
+.icon_card {
+  padding-right: 9px;
+}
+
 @media (min-width: 1280px) {
   .footer_container {
     height: 120px;
