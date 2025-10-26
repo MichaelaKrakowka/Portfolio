@@ -28,7 +28,7 @@
   }
 
   .mobile_nav {
-    display: block;
+    display: flex;
   }
 }
 

@@ -15,17 +15,24 @@ export const HamburgerMenu = () => {
           {open ? " " : <HamburgerMenuIcon className="menu_icon" />}
         </button>
       </Dialog.Trigger>
+
       <Dialog.Portal>
         <Dialog.Overlay className="DialogOverlay" />
         <Dialog.Content className="DialogContent">
           <ul className="mobile_nav_links">
             <li>
-              <a href="#about" onClick={() => setOpen(false)}>
+              <a
+                className="mobile_nav_link"
+                href="#about"
+                onClick={() => setOpen(false)}>
                 O mě
               </a>
             </li>
             <li>
-              <a href="#projects" onClick={() => setOpen(false)}>
+              <a
+                className="mobile_nav_link"
+                href="#projects"
+                onClick={() => setOpen(false)}>
                 Projekty
               </a>
             </li>
