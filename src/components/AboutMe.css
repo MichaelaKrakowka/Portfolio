@@ -19,7 +19,14 @@
 }
 .contact {
   display: flex;
+  flex-direction: column;
+  justify-content: right;
   padding: 15px 0;
+}
+
+.contact_icons {
+  display: flex;
+  gap: 8px;
 }
 .about_paragraph {
   padding-bottom: 15px;
@@ -27,14 +34,12 @@
 .github_card {
   color: #153976;
 }
-.icon_card {
-  padding-left: 8px;
-}
 
 .location {
   cursor: default;
-  padding-right: 55px;
   color: #153976;
+  display: flex;
+  align-items: center;
 }
 @keyframes runningIcon {
   from {

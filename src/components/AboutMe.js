@@ -24,37 +24,41 @@ export const AboutMe = () => {
           <div className="about_part">
             <h1 className="my_name">Michaela Krakówka</h1>
             <div className="contact">
-              <p className="location fade_item delay_1">
-                <FontAwesomeIcon icon={faLocationDot} /> Ostrava
-              </p>
-              <a
-                href="https://www.github.com/MichaelaKrakowka"
-                target="blank"
-                rel="noopener noreferrer"
-                className="github_card fade_item delay_1">
-                <FontAwesomeIcon className="icon_card" icon={faGithub} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/michaela-krakowka-8abbb2b1/"
-                target="blank"
-                rel="noopener noreferrer"
-                className="github_card fade_item delay_1">
-                <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
-              </a>
-              <div className="github_card fade_item delay_1 email_icon">
-                {visibleEmail ? (
-                  <p
-                    onClick={() => setVisibleEmail(false)}
-                    style={{ cursor: "pointer", paddingLeft: "8px" }}>
-                    michaela.krakowka@gmail.com
-                  </p>
-                ) : (
-                  <FontAwesomeIcon
-                    className="icon_card"
-                    icon={faEnvelope}
-                    onClick={() => setVisibleEmail(true)}
-                  />
-                )}
+              <div className="contact_icons">
+                <a
+                  href="https://www.github.com/MichaelaKrakowka"
+                  target="blank"
+                  rel="noopener noreferrer"
+                  className="github_card fade_item delay_1">
+                  <FontAwesomeIcon className="icon_card" icon={faGithub} />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/michaela-krakowka-8abbb2b1/"
+                  target="blank"
+                  rel="noopener noreferrer"
+                  className="github_card fade_item delay_1">
+                  <FontAwesomeIcon className="icon_card" icon={faLinkedin} />
+                </a>
+                <div className="github_card fade_item delay_1 email_icon">
+                  {visibleEmail ? (
+                    <p
+                      onClick={() => setVisibleEmail(false)}
+                      style={{ cursor: "pointer", paddingLeft: "8px" }}>
+                      michaela.krakowka@gmail.com
+                    </p>
+                  ) : (
+                    <FontAwesomeIcon
+                      className="icon_card"
+                      icon={faEnvelope}
+                      onClick={() => setVisibleEmail(true)}
+                    />
+                  )}
+                </div>
+              </div>
+              <div>
+                <p className="location fade_item delay_1">
+                  <FontAwesomeIcon icon={faLocationDot} /> Ostrava
+                </p>
               </div>
             </div>
             <div>
