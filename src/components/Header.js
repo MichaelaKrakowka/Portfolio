@@ -13,7 +13,6 @@ export const Header = () => {
           </a>
           <div className="ball2"></div>
 
-          {/* Desktop navigace */}
           <nav className="desktop_nav">
             <ul className="nav_links">
               <li className="nav_element">
@@ -29,7 +28,6 @@ export const Header = () => {
             </ul>
           </nav>
 
-          {/* Mobilní menu */}
           <div className="mobile_nav">
             <HamburgerMenu />
           </div>

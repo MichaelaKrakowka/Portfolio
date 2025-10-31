@@ -85,6 +85,7 @@ h6 {
   --icons-hover-color: #f0f8ff;
   --primary-color: #153976;
   --secondary-color: #000000;
+  --circle-border: 1px solid white;
   --primary-font: "Poiret One", sans-serif;
   --secondary-font: "Montserrat", sans-serif;
 }

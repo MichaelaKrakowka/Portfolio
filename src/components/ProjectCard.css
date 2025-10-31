@@ -15,10 +15,10 @@
   border-radius: 8px;
 }
 .heading_card {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 300;
   padding: 6px 0;
-  color: #153976;
+  color: var(--primary-color);
   text-shadow: 0 3px 6px #999ca0;
 }
 .visibility_card {
@@ -29,14 +29,14 @@
   margin: 6px;
   padding: 4px 10px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
-  color: #153976;
+  font-family: var(--secondary-font);
+  color: var(--primary-color);
 }
 .public_bg {
   background-color: rgba(83, 139, 83, 0.891);
 }
 .public_bg:hover {
-  color: aliceblue;
+  color: var(--icons-hover-color);
 }
 
 .private_bg {
@@ -52,7 +52,7 @@
 
 @media (min-width: 768px) {
   .container_card:hover {
-    background-color: rgb(253, 243, 243);
+    background-color: #fdf3f3;
   }
   .container_card:last-of-type {
     margin-bottom: 0;

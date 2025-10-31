@@ -6,7 +6,7 @@
 }
 .headings {
   font-size: 1.9rem;
-  color: #153976;
+  color: var(--primary-color);
   text-decoration: none;
   font-weight: 300;
   padding: 15px;

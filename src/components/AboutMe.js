@@ -116,7 +116,6 @@ export const AboutMe = () => {
           </div>
 
           <div className="photo_part fade_item ">
-            {/* <div className="circle2"></div> */}
             <div className="circle3"></div>
             <img
               className="fade_item delay_1"

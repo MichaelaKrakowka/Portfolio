@@ -22,7 +22,6 @@
   transform: translateY(0);
 }
 
-/* jednotlivá zpoždění */
 .delay_0 {
   transition-delay: 0s;
 }
