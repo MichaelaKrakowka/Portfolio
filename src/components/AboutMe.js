@@ -67,7 +67,7 @@ export const AboutMe = () => {
             <div>
               <div className="paragraph_part fade_item delay_2">
                 <p className="about_paragraph">
-                  Jsem JavaScript frontend vývojářka se slabostí pro React.
+                  Jsem JavaScript Frontend vývojářka se slabostí pro React.
                 </p>
                 <p className="about_paragraph fade_item delay_3">
                   Baví mě vytvářet si své vlastní projekty a převádět je na
