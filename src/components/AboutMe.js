@@ -66,22 +66,17 @@ export const AboutMe = () => {
             </div>
             <div>
               <div className="paragraph_part fade_item delay_2">
-                <p className="about_paragraph">
-                  Jsem JavaScript Frontend vývojářka se slabostí pro React.
-                </p>
+                <p className="about_paragraph">Vítejte na mém portfoliu!</p>
                 <p className="about_paragraph fade_item delay_3">
-                  Baví mě vytvářet si své vlastní projekty a převádět je na
-                  obrazovku. Pokud zrovna na nějakém nepracuji, je dost
-                  pravděpodobné, že přemýšlím již nad dalším.{" "}
+                  Jsem JavaScript Frontend Developerka se zaměřením na tvorbu
+                  webových aplikací. Na této stránce najdete projekty, které
+                  jsem navrhla, vytvořila a zveřejnila na internetu.{" "}
                 </p>
+
                 <p className="about_paragraph fade_item delay_4">
                   {" "}
-                  Mimo práci na vlastních projektech, bych se ráda stala
-                  součástí týmu, kde bych mohla dále profesně růst a stát se tak
-                  plnohodnotným členem. Jsem otevřená spolupráci na plný i
-                  zkrácený úvazek, ideálně alespoň s částečným docházením do
-                  firmy, abych toho co nejvíce pochytila od svých kolegů a mohla
-                  lépe poznat firemní kulturu.
+                  Pro kontakt můžete využít LinkedIn nebo e-mail uvedený na této
+                  stránce.
                 </p>
               </div>
               <div className="skills_part">
