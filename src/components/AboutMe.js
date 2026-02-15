@@ -66,7 +66,7 @@ export const AboutMe = () => {
             </div>
             <div>
               <div className="paragraph_part fade_item delay_2">
-                <p className="about_paragraph">Vítejte na mém portfoliu!</p>
+                <p className="about_paragraph">Vítejte na mých stránkách!</p>
                 <p className="about_paragraph fade_item delay_3">
                   Jsem JavaScript Frontend Developerka se zaměřením na tvorbu
                   webových aplikací. Na této stránce najdete projekty, které
